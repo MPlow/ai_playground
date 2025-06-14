@@ -44,7 +44,7 @@ if __name__ == "__main__":
         best_model_save_path=result_directory + "/models",
         log_path=result_directory + "/eval_metrics",
         n_eval_episodes=2,
-        eval_freq=max(1_000 // N_TRAINING_ENVS, 1),
+        eval_freq=max(1_000 // N_EVAL_ENVS, 1),
         deterministic=True,
     )
 

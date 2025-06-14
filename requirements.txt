@@ -12,3 +12,6 @@ stable-baselines3==2.3.2
 torchrl==0.6.0
 ray[tune]==2.37.0
 pytest
+optuna==4.3.0
+optuna-dashboard==0.18.0
+
